@@ -1,1 +1,28 @@
+<!DOCTYPE html>
 
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <title>Demi Hub</title>
+    </head>
+
+    <body>
+        <nav class="bar">
+            <a class="nav-link" style="position: relative; left: 2.5%;" href="index">Home</a>
+            <a class="nav-link" style="position: relative; left: 10%;">Games</a>
+        </nav>
+
+        <div class="main">
+            <div class="script-box">
+                <button class="line" style="position: relative; left: 95%; top: 0%;" onclick="copyScript(1)">copy</button>
+                <div class="line" style="position: relative; left: 5px; top: 5px;">
+                    1. &nbsp;
+                    <span class="script-text" id="script-text">loadstring(game:HttpGet('https://raw.githubusercontent.com/Lagendking/Script/main/Script'))()</span>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
