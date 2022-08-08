@@ -27,6 +27,8 @@ body {
 .nav-link {
     text-decoration: none;
     color: rgb(158, 158, 158);
+    position: relative;
+    top: -5px;
 }
 
 .nav-link:hover {
